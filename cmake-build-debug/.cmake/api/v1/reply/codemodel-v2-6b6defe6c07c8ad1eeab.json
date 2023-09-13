@@ -1,0 +1,272 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "RabbitCipher_lib",
+					"jsonFile" : "directory-RabbitCipher_lib-Debug-0702e4d99e4d4d8afc08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "RabbitCipher_lib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Google_tests",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Google_tests-Debug-6c3cf95073452b88eb18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Google_tests",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Google_tests/lib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Google_tests.lib-Debug-7893e706f812095e4bc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "Google_tests/lib"
+				},
+				{
+					"build" : "Google_tests/lib/googlemock",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Google_tests.lib.googlemock-Debug-da944c84a5bea4356193.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "Google_tests/lib/googlemock",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "Google_tests/lib/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Google_tests.lib.googletest-Debug-9fa5c955fc1653c6dc6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "Google_tests/lib/googletest",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RabbitCipher",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Google_tests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Google_tests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 2
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gmock",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gtest",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Google_Tests_run::@eb06d550d4862b816b8d",
+					"jsonFile" : "target-Google_Tests_run-Debug-5621996990fd73414e72.json",
+					"name" : "Google_Tests_run",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RabbitCipher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RabbitCipher-Debug-1fffc4068cda8e81ca1c.json",
+					"name" : "RabbitCipher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RabbitCipher_lib::@02d752643c29dd46a897",
+					"jsonFile" : "target-RabbitCipher_lib-Debug-0aaaaf18b6f5c30935b1.json",
+					"name" : "RabbitCipher_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock::@8e4042a334827d542816",
+					"jsonFile" : "target-gmock-Debug-86619077c20e8787e608.json",
+					"name" : "gmock",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock_main::@8e4042a334827d542816",
+					"jsonFile" : "target-gmock_main-Debug-5c821c05da1162351f15.json",
+					"name" : "gmock_main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest::@30f1f5c04acc29f5722e",
+					"jsonFile" : "target-gtest-Debug-2fb2289bf3b1e4469e03.json",
+					"name" : "gtest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest_main::@30f1f5c04acc29f5722e",
+					"jsonFile" : "target-gtest_main-Debug-ac564a192ce5b4079bea.json",
+					"name" : "gtest_main",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/BM/CLionProjects/RabbitCipher/cmake-build-debug",
+		"source" : "/Users/BM/CLionProjects/RabbitCipher"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
